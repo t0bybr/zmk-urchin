@@ -14,8 +14,8 @@
 ---
 include:
   - board: nice_nano_v2
-    shield: urchin_left
+    shield: urchin_tp_left
   - board: nice_nano_v2
-    shield: urchin_right
+    shield: urchin_tp_right
  # - board: nice_nano_v2
 #    shield: settings_reset
