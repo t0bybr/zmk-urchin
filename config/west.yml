@@ -15,8 +15,8 @@ manifest:
       url-base: https://github.com/t0bybr
   projects:
     - name: zmk
-      # remote: zmkfirmware
-      # revision: main
+      remote: zmkfirmware
+      revision: main
     #   remote: petejohanson
     #   revision: feat/pointers-move-scroll
       import: app/west.yml
