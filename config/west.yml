@@ -3,8 +3,8 @@ manifest:
     # zmk official
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-    - name: infused-kim
-      url-base: https://github.com/infused-kim
+    # - name: infused-kim
+    #   url-base: https://github.com/infused-kim
     - name: badjeff
       url-base: https://github.com/badjeff
     # - name: petejohanson
@@ -17,9 +17,9 @@ manifest:
       url-base: https://github.com/t0bybr
   projects:
     - name: zmk
-      remote: badjeff
-      # revision: main
-      revision: feat/pointers-with-input-processors
+      remote: zmkfirmware
+      revision: main
+      # revision: feat/pointers-with-input-processors
     #   remote: petejohanson
     #   revision: feat/pointers-move-scroll
       import: app/west.yml
