@@ -5,6 +5,8 @@ manifest:
       url-base: https://github.com/zmkfirmware
     - name: infused-kim
       url-base: https://github.com/infused-kim
+    - name: badjeff
+      url-base: https://github.com/badjeff
     # - name: petejohanson
     #   url-base: https://github.com/petejohanson
       # bravekarma
@@ -24,8 +26,11 @@ manifest:
       remote: t0bybr
       revision: main
     - name: kb_zmk_ps2_mouse_trackpoint_driver
-      remote: infused-kim
+      remote: badjeff
       revision: main
+    # - name: kb_zmk_ps2_mouse_trackpoint_driver
+    #   remote: infused-kim
+    #   revision: main
     # - name: zmk
     #   remote: infused-kim
     #   revision: pr-testing/mouse_ps2_module_base
