@@ -18,7 +18,8 @@ manifest:
   projects:
     - name: zmk
       remote: badjeff
-      revision: main
+      # revision: main
+      revision: feat/pointers-with-input-processors
     #   remote: petejohanson
     #   revision: feat/pointers-move-scroll
       import: app/west.yml
